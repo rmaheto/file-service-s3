@@ -1,0 +1,16 @@
+spring:
+  config:
+    import: optional:secrets.yml
+aws:
+  region:
+    static: us-east-1
+  stack:
+    auto: false
+
+application:
+  s3-bucket:
+    name: codemaniac-storage
+
+server:
+  servlet:
+    context-path: /api
