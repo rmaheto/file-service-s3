@@ -1296,3 +1296,209 @@ Consider defining a bean of type 'com.codemaniac.filestorageservice.service.File
 11:39:27.532 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
 11:39:27.537 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Started FileStorageServiceApplication in 0.447 seconds (process running for 35474.481)
 11:39:27.539 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+19:22:32.945 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+19:22:33.098 [Thread-28] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+19:22:33.100 [Thread-28] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:22:33.151 [Thread-28] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+19:22:33.158 [Thread-28] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+19:22:33.411 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Starting FileStorageServiceApplication using Java 17.0.1 with PID 42516 (D:\snapshotviews\file-service\target\classes started by mawun in D:\snapshotviews\file-service)
+19:22:33.411 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - No active profile set, falling back to 1 default profile: "default"
+19:22:33.573 [restartedMain] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+19:22:33.618 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:22:33.619 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:22:33.619 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:22:33.619 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+19:22:33.679 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+19:22:33.679 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 264 ms
+19:22:33.751 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:22:33.755 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:22:33.758 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+19:22:33.761 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Started FileStorageServiceApplication in 0.39 seconds (process running for 63264.007)
+19:22:33.762 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+19:22:35.182 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+19:22:35.193 [Thread-38] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+19:22:35.193 [Thread-38] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:22:35.195 [Thread-38] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+19:22:35.196 [Thread-38] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+19:22:35.276 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Starting FileStorageServiceApplication using Java 17.0.1 with PID 42516 (D:\snapshotviews\file-service\target\classes started by mawun in D:\snapshotviews\file-service)
+19:22:35.276 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - No active profile set, falling back to 1 default profile: "default"
+19:22:35.417 [restartedMain] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+19:22:35.452 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:22:35.452 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:22:35.453 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:22:35.453 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+19:22:35.515 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+19:22:35.515 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 236 ms
+19:22:35.578 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:22:35.583 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:22:35.585 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+19:22:35.588 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Started FileStorageServiceApplication in 0.349 seconds (process running for 63265.835)
+19:22:35.590 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+19:39:20.362 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+19:39:20.399 [Thread-42] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+19:39:20.399 [Thread-42] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:39:20.410 [Thread-42] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+19:39:20.412 [Thread-42] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+19:39:20.529 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Starting FileStorageServiceApplication using Java 17.0.1 with PID 42516 (D:\snapshotviews\file-service\target\classes started by mawun in D:\snapshotviews\file-service)
+19:39:20.530 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - No active profile set, falling back to 1 default profile: "default"
+19:39:20.688 [restartedMain] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+19:39:20.734 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:39:20.734 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:39:20.734 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:39:20.734 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+19:39:20.803 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+19:39:20.803 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 269 ms
+19:39:20.811 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageController': Resolution of declared constructors on bean Class [com.codemaniac.filestorageservice.controller.FileStorageController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@68a1a8d0] failed
+19:39:20.811 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:39:20.814 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+19:39:20.817 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageController': Resolution of declared constructors on bean Class [com.codemaniac.filestorageservice.controller.FileStorageController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@68a1a8d0] failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1291)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1186)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.codemaniac.filestorageservice.FileStorageServiceApplication.main(FileStorageServiceApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: com/codemaniac/filestorageservice/service/S3Service
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3373)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.codemaniac.filestorageservice.service.S3Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 27 common frames omitted
+19:39:22.279 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Starting FileStorageServiceApplication using Java 17.0.1 with PID 42516 (D:\snapshotviews\file-service\target\classes started by mawun in D:\snapshotviews\file-service)
+19:39:22.280 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - No active profile set, falling back to 1 default profile: "default"
+19:39:22.402 [restartedMain] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+19:39:22.431 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:39:22.432 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:39:22.432 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:39:22.432 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+19:39:22.518 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+19:39:22.518 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 236 ms
+19:39:22.549 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileStorageController' defined in file [D:\snapshotviews\file-service\target\classes\com\codemaniac\filestorageservice\controller\FileStorageController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 's3Service' defined in file [D:\snapshotviews\file-service\target\classes\com\codemaniac\filestorageservice\service\S3Service.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.codemaniac.filestorageservice.service.FileUtilWrapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+19:39:22.549 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+19:39:22.554 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+19:39:22.558 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.codemaniac.filestorageservice.service.S3Service required a bean of type 'com.codemaniac.filestorageservice.service.FileUtilWrapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.codemaniac.filestorageservice.service.FileUtilWrapper' in your configuration.
+
+19:39:24.024 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Starting FileStorageServiceApplication using Java 17.0.1 with PID 42516 (D:\snapshotviews\file-service\target\classes started by mawun in D:\snapshotviews\file-service)
+19:39:24.024 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - No active profile set, falling back to 1 default profile: "default"
+19:39:24.144 [restartedMain] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+19:39:24.172 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:39:24.172 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:39:24.172 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:39:24.173 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+19:39:24.238 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+19:39:24.238 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 211 ms
+19:39:24.304 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:39:24.311 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:39:24.315 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+19:39:24.319 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Started FileStorageServiceApplication in 0.325 seconds (process running for 64274.565)
+19:39:24.320 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+19:50:54.876 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+19:50:54.877 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+19:50:54.881 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+19:56:24.946 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+19:56:24.948 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+19:56:24.952 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+20:00:54.291 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+20:00:54.293 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+20:00:54.297 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+20:01:27.004 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+20:01:27.006 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+20:01:27.010 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+20:01:27.131 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+20:01:27.131 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+20:01:27.132 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+20:01:27.162 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+20:01:27.162 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+20:01:27.162 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+20:13:49.091 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+20:13:49.122 [Thread-46] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+20:13:49.123 [Thread-46] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+20:13:49.135 [Thread-46] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+20:13:49.137 [Thread-46] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+20:13:49.246 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Starting FileStorageServiceApplication using Java 17.0.1 with PID 42516 (D:\snapshotviews\file-service\target\classes started by mawun in D:\snapshotviews\file-service)
+20:13:49.246 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - No active profile set, falling back to 1 default profile: "default"
+20:13:49.382 [restartedMain] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+20:13:49.423 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:13:49.423 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:13:49.424 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:13:49.424 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+20:13:49.488 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+20:13:49.488 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 240 ms
+20:13:49.565 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:13:49.571 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:13:49.576 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+20:13:49.579 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Started FileStorageServiceApplication in 0.363 seconds (process running for 66339.824)
+20:13:49.579 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+20:13:50.980 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+20:13:50.991 [Thread-56] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+20:13:50.992 [Thread-56] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+20:13:50.993 [Thread-56] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+20:13:50.994 [Thread-56] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+20:13:51.062 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Starting FileStorageServiceApplication using Java 17.0.1 with PID 42516 (D:\snapshotviews\file-service\target\classes started by mawun in D:\snapshotviews\file-service)
+20:13:51.063 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - No active profile set, falling back to 1 default profile: "default"
+20:13:51.183 [restartedMain] ERROR o.a.c.core.AprLifecycleListener - An incompatible version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.34]
+20:13:51.212 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:13:51.213 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:13:51.213 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:13:51.213 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+20:13:51.305 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+20:13:51.305 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 241 ms
+20:13:51.369 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:13:51.374 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:13:51.378 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+20:13:51.381 [restartedMain] INFO  c.c.f.FileStorageServiceApplication - Started FileStorageServiceApplication in 0.347 seconds (process running for 66341.627)
+20:13:51.382 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+20:14:22.107 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+20:14:22.109 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+20:14:22.113 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+20:15:03.044 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+20:15:03.046 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+20:15:03.050 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+20:15:52.768 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+20:15:52.769 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+20:15:52.773 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms

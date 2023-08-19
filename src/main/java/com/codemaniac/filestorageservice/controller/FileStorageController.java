@@ -24,6 +24,12 @@ public class FileStorageController {
 
     }
 
+    @PostMapping("/upload-multiple")
+    public ResponseEntity<String> uploadMultipleFiles(@RequestParam("files") List<MultipartFile> files) {
+        s3Service.uploadMultipleFiles(files);
+        return new ResponseEntity<>("Files uploaded successfully", HttpStatus.OK);
+    }
+
     @GetMapping("/download/{fileName}")
     public ResponseEntity<ByteArrayResource> downloadFile(@PathVariable String fileName) {
         byte[] data = s3Service.downloadFile(fileName);
