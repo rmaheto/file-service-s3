@@ -42,9 +42,7 @@ public class S3Service {
 
     public void uploadMultipleFiles(List<MultipartFile> files) {
         if (files != null) {
-            files.forEach(multipartFile -> {
-                uploadFile(multipartFile);
-            });
+            files.forEach(this::uploadFile);
         }
     }
 
@@ -52,12 +50,11 @@ public class S3Service {
         S3Object s3Object = amazonS3Client.getObject(bucketName, fileName);
         S3ObjectInputStream inputStream = s3Object.getObjectContent();
         try {
-            byte[] content = IOUtils.toByteArray(inputStream);
-            return content;
+            return fileUtilWrapper.toByteArray(inputStream);
         } catch (IOException e) {
             log.debug("error converting inputstream from s3 bucket to byte array: ", e);
         }
-        return null;
+        return new byte[0];
     }
 
     public List<String> listFileNamesInBucket() {
@@ -74,7 +71,5 @@ public class S3Service {
         amazonS3Client.deleteObject(bucketName, fileName);
         return  fileName + " removed...";
     }
-
-
 
 }
